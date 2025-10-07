@@ -1,0 +1,22 @@
+# Database Configuration
+# Copy this file to database.properties and update with your actual database credentials
+
+db.host=localhost
+db.port=3306
+db.name=baitaplonjava
+db.user=root
+db.password=
+
+# Database Connection Options
+db.use.ssl=false
+db.server.timezone=UTC
+db.use.unicode=true
+db.character.encoding=UTF-8
+
+# HikariCP Connection Pool Configuration
+hikari.maximum.pool.size=10
+hikari.minimum.idle=2
+hikari.connection.timeout=30000
+hikari.idle.timeout=600000
+hikari.max.lifetime=1800000
+hikari.leak.detection.threshold=60000
